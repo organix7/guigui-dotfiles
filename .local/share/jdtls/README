@@ -1,1 +1,2 @@
-You need to install jdtls in this directory.
+You need to install jdtls in this directory or install it via Mason.
+Don’t forget to update your PATH environment variable in .zshrc to point to the jdtls binary.”
