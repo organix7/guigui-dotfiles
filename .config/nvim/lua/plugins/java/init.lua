@@ -1,10 +1,13 @@
 return {
   {
     "nvim-java/nvim-java",
-    ft = { "java" },
     config = function()
       require("java").setup()
-      require("lspconfig").jdtls.setup({})
+      vim.lsp.config("jdtls", {
+        name = "jdtls",
+        cmd = { "jdtls" },
+      })
+      vim.lsp.enable("jdtls")
       local dap = require("dap")
 
       dap.configurations.java = {

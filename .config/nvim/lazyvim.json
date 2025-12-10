@@ -6,11 +6,12 @@
     "lazyvim.plugins.extras.coding.nvim-cmp",
     "lazyvim.plugins.extras.dap.core",
     "lazyvim.plugins.extras.editor.fzf",
+    "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.python"
   ],
   "install_version": 8,
   "news": {
-    "NEWS.md": "10960"
+    "NEWS.md": "11866"
   },
   "version": 8
 }

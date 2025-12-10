@@ -6,7 +6,15 @@ return {
       filter = {
         event = "lsp",
         kind = "progress",
-        find = "jdtls",
+        find = "Validate documents",
+      },
+      opts = { skip = true },
+    })
+    table.insert(opts.routes, {
+      filter = {
+        event = "lsp",
+        kind = "progress",
+        find = "Publish Diagnostics",
       },
       opts = { skip = true },
     })
