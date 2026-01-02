@@ -1,0 +1,8 @@
+You need to install Lemminx.
+
+For that, you can read this post:
+https://github.com/eclipse-lemminx/lemminx-maven/discussions/588#discussioncomment-15063005
+
+You must download lemminx binaries and build them.
+Just see .sh files: https://github.com/sergii-dudar/dotfiles/blob/master/bin/install/nvim/ls/lemminx-maven/load_and_build_all.sh
+
