@@ -855,6 +855,10 @@
 }
 
 /* Media-Widget-Popup */
+.media-widget {
+    padding: 0;
+}
+
 .media-menu {
     min-width: 440px;
     max-width: 440px;
