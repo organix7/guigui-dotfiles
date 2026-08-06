@@ -113,7 +113,7 @@
     --subtext: #b2b2b2; */
 
     /* Tokyo Night */
-    --background: #1a1b26;
+    --background: rgba(26, 27, 38, 0.7);
     --background2: #414868;
     --accent: #9aa5ce;
     --text: #c0caf5;
@@ -350,19 +350,15 @@
 /* Clock */
 
 .clock-widget .widget-container {
-    background-color: var(--accent);
-    border: 2px solid var(--accent);
-    border-radius: var(--border-radius2);
-    margin: 1px 1px;
-    padding: 2 4px;
+ 
 }
 
 .clock-widget .label {
-    color: var(--accentText);
+
 }
 
 .clock-widget {
-    padding: 2 2px;
+	
 }
 
 .clock-widget .icon.alarm {
@@ -1109,7 +1105,7 @@ Example: "Windows Media" becomes "windows-media" */
 /* Quick Launch Popup - main window */
 
 .quick-launch-popup .container {
-	background-color: var(--background);
+	background-color: rgba(26, 27, 38, 0.9);
     border: 1px solid var(--border);
     border-radius: var(--border-radius);
 }
